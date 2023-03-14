@@ -2,26 +2,6 @@ import './App.css';
 import {Box, Button, Text} from '@chakra-ui/react'
 import {useState} from "react";
 
-// function Numbers(props) {
-//     const nums = Array.from(Array(10).keys()).map(
-//         number => {
-//             return <Button
-//                 onClick={(e) => {
-//                     if(props.data != '0')
-//                     props.onClick(props.data + e.target.)
-//                     else props.onClick(e.target.value)
-//                 }
-//                 }
-//                 key={number} w={"40px"} h={"40px"} margin={"4px"}>
-//                 {number}
-//             </Button>
-//         }
-//     )
-//     return (
-//         <Box display={"flex"} flexWrap={"wrap"} w={"150px"}> {nums} </Box>
-//     )
-
-
 function App() {
     const [calc, setCalc] = useState("");
     const [result, setResult] = useState("");
